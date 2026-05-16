@@ -3,5 +3,5 @@ numpy
 matplotlib
 gdown
 h5py
-tensorflow-cpu==2.13.0
-protobuf==3.20.3
+tensorflow-cpu
+protobuf
