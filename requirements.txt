@@ -7,3 +7,5 @@ torch --index-url https://download.pytorch.org/whl/cpu
 scipy
 Pillow
 tf.keras
+tensorflow==2.15.*
+tf-keras==2.15.*
