@@ -490,8 +490,8 @@ FEATURE_DEPTH = 1280
 DIGRAPHS      = ["dh", "ch", "sh", "ny", "ph", "ts"]
 
 DRIVE_FILES = {
-    "caption_model.h5"    : "1rz7Uygf40CGn51WlDi0jwNgGWd_q-0ji",
-    "feature_extractor.h5": "1E-odoaaSFQN45GlmfGdV_qdys5A1XWHc",
+    "caption_model.h5"    : "1nOau1Lao91cKpPN4Gv6iJCpLjFl4A5J9",
+    "feature_extractor.h5": "1YdWc9QjnV5lbMCgHPbnP6y5VVqhXYwAV",
     "tokenizer.pkl"          : "1MGsLTdYDDxWuHcUKiT8Gu229ySVI5tB_",
 }
 
