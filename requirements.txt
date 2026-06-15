@@ -1,11 +1,10 @@
-streamlit==1.58.0
-tensorflow-cpu==2.15.0
-numpy<2.0
+streamlit==1.45.1
+tensorflow==2.19.0
+tf-keras
+h5py
 gdown
-transformers
-torch --index-url https://download.pytorch.org/whl/cpu
-scipy
+numpy
 Pillow
-tf.keras
-tensorflow==2.15.*
-tf-keras==2.15.*
+transformers
+torch
+scipy
