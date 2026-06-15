@@ -539,11 +539,11 @@ def load_models():
             return cfg
 
     caption_model     = load_model(
-        "caption_model.keras",
+        "caption_model.h5",
         custom_objects={"BahdanauAttention": BahdanauAttention},
         compile=False,
     )
-    feature_extractor = load_model("feature_extractor.keras", compile=False)
+    feature_extractor = load_model("feature_extractor.h5", compile=False)
     with open("tokenizer.pkl", "rb") as f:
         tokenizer = pickle.load(f)
     return caption_model, feature_extractor, tokenizer, 40
